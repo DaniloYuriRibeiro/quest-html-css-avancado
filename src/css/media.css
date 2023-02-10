@@ -1,0 +1,152 @@
+@media(max-width: 1233px){
+    .container-content .image{
+        margin-top: 20px;
+    }
+    .container-content .content{
+        margin-top: 20px;
+    }
+    .content h2{
+        font-size: 3em;
+    }
+}
+
+@media(max-width: 992px){   
+    .image img{
+        min-width: 370px;
+        min-height: 270px;   
+    }
+
+    .content h2{
+        font-size: 2.4em;
+        margin-top: 65px;
+        min-width: 264px;
+    }
+    .content p{
+        font-size: 1.4rem;
+        min-width: 216px;
+    }
+
+    .content .btn a{
+        padding: 12px 10% ;
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 768px){
+    .container .container-content{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-items: center;
+    }
+    
+    .container-content .logo{
+        width: 400px;
+        position: left;
+    }
+
+    .logo img{
+        width: 150px;
+        padding-left: 20px;
+    }
+
+    .container-content .image img{
+        height: 100px;
+    }
+
+    .container-content .content{
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .content h2{
+        font-size: 2.5rem;
+        text-align: center;
+        min-width: 350px;
+    }
+
+    .content p{
+        margin-top: 10px;
+        font-size: 1.5em;
+    }
+
+    .content .btn{
+        margin-top: 10px;
+    }
+
+    .content .btn a{
+        padding: 12px 72px;
+    }
+
+    .container-content .social{
+        margin-top: 110px;
+    }
+    
+    footer .attribution{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 398px) {
+    .container{
+        background: url("../images/bg-mobile.svg") top no-repeat;
+    }
+
+    .container .container-content{
+        background-image: none;
+        padding: 10px 35px ;
+        display: grid;
+        grid: "logo" 80px
+              "image" 282px
+              "content" 220px
+              "social" 300px;
+    }
+
+    .container-content .logo{
+        margin-left: 53px;
+    }
+
+    .logo img{
+        width: 150px;
+    }
+
+    .container-content .image{
+        margin: 0;
+        height: 300px;
+    }
+
+    .container-content .image img{
+        min-width: auto;
+        min-height: auto;
+        width: 305px;
+        height: 215px;
+    }
+
+    .content h2{
+        min-width: auto;
+        width: 305px;
+        margin-top: 85px;
+    }
+
+    .content p{
+        min-width: auto;
+        width: 305px;
+        margin: 18px 0 30px;
+    }
+
+    .content .btn{
+        margin-top: 0;
+    }
+
+    .container-content .social{
+        height: 100px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    footer .attribution{
+        font-size: 1rem;
+    }
+}
